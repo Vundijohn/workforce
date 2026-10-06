@@ -40,6 +40,8 @@ class Project extends Model
     /** Pay per approved task, formatted for display. */
     public function payRateLabel(): string
     {
-        return $this->currency.' '.number_format($this->pay_rate_minor / 100, 2);
+        return $this->currency === 'USD'
+            ? '$'.number_format($this->pay_rate_minor / 100, 2)
+            : $this->currency.' '.number_format($this->pay_rate_minor / 100, 2);
     }
 }

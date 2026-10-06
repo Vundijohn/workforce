@@ -42,8 +42,8 @@ class DemoDataSeeder extends Seeder
             [
                 'description' => 'Rate and rewrite AI answers for helpfulness and accuracy.',
                 'instructions' => "1. Read the prompt.\n2. Write the best possible answer in your own words.\n3. Keep it factual and clear.",
-                'pay_rate_minor' => 25000, // KES 250.00
-                'currency' => 'KES',
+                'pay_rate_minor' => 2500, // USD 25.00
+                'currency' => 'USD',
                 'status' => ProjectStatus::Active,
             ]
         );

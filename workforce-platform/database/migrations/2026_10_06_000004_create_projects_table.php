@@ -15,7 +15,7 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->longText('instructions')->nullable();
             $table->unsignedBigInteger('pay_rate_minor');      // per approved task, minor units
-            $table->char('currency', 3)->default('KES');
+            $table->char('currency', 3)->default('USD');
             $table->string('status', 20)->default('draft')->index();
             $table->timestamp('opens_at')->nullable();
             $table->timestamps();

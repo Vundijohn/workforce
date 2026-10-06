@@ -13,7 +13,7 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained()->restrictOnDelete();
             $table->foreignId('task_submission_id')->unique()->constrained()->restrictOnDelete(); // idempotent approval
             $table->unsignedBigInteger('amount_minor');
-            $table->char('currency', 3)->default('KES');
+            $table->char('currency', 3)->default('USD');
             $table->string('status', 20)->default('pending')->index();
             $table->timestamp('available_at')->nullable();
             $table->timestamps();

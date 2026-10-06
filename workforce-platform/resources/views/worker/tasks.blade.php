@@ -45,12 +45,13 @@
 
             @php
                 $totalMinor = $earnings->sum('amount_minor');
-                $currency = $earnings->first()?->currency ?? 'KES';
+                $currency = $earnings->first()?->currency ?? 'USD';
+                $formattedTotal = $currency === 'USD' ? '$'.number_format($totalMinor / 100, 2) : $currency.' '.number_format($totalMinor / 100, 2);
             @endphp
             <div class="bg-white rounded-3xl p-6 border border-gray-200/70 shadow-soft">
                 <div class="text-xs font-bold uppercase tracking-wider text-ink-400 mb-1">Total Recorded Earnings</div>
                 <div class="text-3xl font-extrabold text-outlier-600 font-display">
-                    {{ $currency }} {{ number_format($totalMinor / 100, 2) }}
+                    {{ $formattedTotal }}
                 </div>
                 <div class="mt-2 text-xs text-ink-500">Across {{ $earnings->count() }} approved submissions</div>
             </div>
