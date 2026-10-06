@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .bg-mesh-radial {
+        background-color: #F8F9FA;
+        background-image: 
+            radial-gradient(at 15% 15%, rgba(255, 218, 201, 0.45) 0px, transparent 55%),
+            radial-gradient(at 85% 10%, rgba(208, 238, 249, 0.55) 0px, transparent 50%),
+            radial-gradient(at 50% 50%, rgba(255, 239, 229, 0.3) 0px, transparent 60%),
+            radial-gradient(at 80% 85%, rgba(255, 222, 201, 0.4) 0px, transparent 55%),
+            radial-gradient(at 10% 85%, rgba(214, 237, 245, 0.45) 0px, transparent 50%);
+    }
+
+    .bg-mesh-banner {
+        background: linear-gradient(135deg, #FFDEC9 0%, #E8F4F8 50%, #FFEFE5 100%);
+    }
+
+    .glass-card {
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.7);
+    }
+}
+
