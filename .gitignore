@@ -1,0 +1,32 @@
+# Dependencies
+**/vendor/
+**/node_modules/
+
+# Environment files
+**/.env
+**/.env.backup
+**/.env.production
+
+# Cache and logs
+*.log
+**/.phpunit.result.cache
+**/.phpunit.cache
+
+# SQLite Databases
+**/database/*.sqlite
+**/database/*.sqlite-journal
+
+# Compiled assets
+**/public/build/
+**/public/hot
+**/public/storage
+
+# Storage
+**/storage/*.key
+**/storage/pail
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
