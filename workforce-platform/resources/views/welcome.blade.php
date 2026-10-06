@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Outlier · Train the Next Generation of AI as an Expert</title>
+    <title>Workforce Platform · Train the Next Generation of AI as an Expert</title>
 
-    <meta name="description" content="What is Outlier? A platform for building AI with expert human input. Join a global community of specialists training frontier models.">
+    <meta name="description" content="What is Workforce Platform? A platform for building AI with expert human input. Join a global community of specialists training frontier models.">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,10 +30,10 @@
             <!-- Brand Logo -->
             <a href="/" class="flex items-center gap-1.5 group">
                 <span class="font-extrabold text-2xl tracking-tight text-ink-900 font-display">
-                    Outlier<span class="text-outlier-500">.</span>
+                    Workforce<span class="text-outlier-500">.</span>
                 </span>
-                <span class="text-[10px] tracking-widest uppercase font-bold px-2 py-0.5 rounded-full bg-outlier-100 text-outlier-700 border border-outlier-200/60 ml-0.5">
-                    AI
+                <span class="text-[10px] tracking-widest uppercase font-bold px-2.5 py-0.5 rounded-full bg-outlier-100 text-outlier-700 border border-outlier-200/60 ml-0.5">
+                    Platform
                 </span>
             </a>
 
@@ -41,7 +41,7 @@
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-ink-600">
                 <a href="#how-it-works" class="hover:text-ink-900 transition-colors">How It Works</a>
                 <a href="#capabilities" class="hover:text-ink-900 transition-colors">What You'll Do</a>
-                <a href="#benefits" class="hover:text-ink-900 transition-colors">Why Outlier</a>
+                <a href="#benefits" class="hover:text-ink-900 transition-colors">Why Workforce Platform</a>
                 <a href="#faqs" class="hover:text-ink-900 transition-colors">FAQs</a>
             </nav>
 
@@ -129,7 +129,7 @@
             </div>
         </section>
 
-        <!-- Floating Domain Specialist Cards (Outlier Visual Feature) -->
+        <!-- Floating Domain Specialist Cards -->
         <section class="py-12 bg-white/50 border-y border-gray-200/50 backdrop-blur-sm">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-xl mx-auto mb-10">
@@ -227,7 +227,7 @@
                 <div class="text-center max-w-2xl mx-auto mb-12">
                     <span class="text-xs font-bold text-outlier-600 uppercase tracking-widest">The Core Work</span>
                     <h2 class="text-3xl sm:text-4xl font-extrabold text-ink-900 tracking-tight mt-1 font-display">
-                        What you will do on Outlier
+                        What you will do on Workforce Platform
                     </h2>
                     <p class="text-ink-600 mt-3 text-base">
                         Frontier models require nuanced human judgment that simple algorithms cannot replicate.
@@ -382,7 +382,7 @@
             </div>
         </section>
 
-        <!-- Why Join Outlier (2x2 Grid) -->
+        <!-- Why Join Workforce Platform (2x2 Grid) -->
         <section id="benefits" class="py-20 bg-white/60 border-y border-gray-200/60">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-xl mx-auto mb-16">
@@ -552,7 +552,7 @@
             </div>
         </section>
 
-        <!-- Final CTA Banner (Outlier Signature Gradient Card) -->
+        <!-- Final CTA Banner -->
         <section class="py-20">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="bg-mesh-banner rounded-4xl p-10 sm:p-16 border border-outlier-200 shadow-card text-center relative overflow-hidden">
@@ -564,7 +564,7 @@
                             Ready to build the future of AI?
                         </h2>
                         <p class="text-ink-700 text-base sm:text-lg mb-8 leading-relaxed">
-                            Join over 900,000+ domain experts worldwide. Work on your own schedule and earn competitively.
+                            Join over 900,000+ domain experts worldwide on Workforce Platform. Work on your own schedule and earn competitively.
                         </p>
                         <a href="{{ route('register') }}"
                            class="inline-flex items-center gap-2 px-9 py-4 rounded-full text-base font-bold text-white bg-outlier-500 hover:bg-outlier-600 shadow-xl shadow-outlier-500/30 transition transform hover:-translate-y-0.5">
@@ -579,17 +579,17 @@
         </section>
     </main>
 
-    <!-- Outlier Full Footer -->
+    <!-- Full Footer -->
     <footer class="bg-white border-t border-gray-200/80 py-12 text-ink-600">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between items-start gap-8 mb-10">
                 <div class="max-w-sm">
                     <div class="flex items-center gap-1.5 mb-3">
                         <span class="font-extrabold text-2xl tracking-tight text-ink-900 font-display">
-                            Outlier<span class="text-outlier-500">.</span>
+                            Workforce<span class="text-outlier-500">.</span>
                         </span>
-                        <span class="text-[10px] tracking-widest uppercase font-bold px-2 py-0.5 rounded-full bg-outlier-100 text-outlier-700 border border-outlier-200/60 ml-0.5">
-                            AI
+                        <span class="text-[10px] tracking-widest uppercase font-bold px-2.5 py-0.5 rounded-full bg-outlier-100 text-outlier-700 border border-outlier-200/60 ml-0.5">
+                            Platform
                         </span>
                     </div>
                     <p class="text-xs text-ink-500 leading-relaxed">
@@ -629,7 +629,7 @@
 
             <div class="border-t border-gray-100 pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-ink-400 gap-3">
                 <div>
-                    © {{ date('Y') }} Outlier Platform. Empowering human-in-the-loop intelligence.
+                    © {{ date('Y') }} Workforce Platform. Empowering human-in-the-loop intelligence.
                 </div>
                 <div class="flex items-center gap-4">
                     <span>English (US)</span>

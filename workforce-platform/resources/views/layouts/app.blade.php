@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Outlier Workforce') }} · Train Frontier AI</title>
+        <title>{{ config('app.name', 'Workforce Platform') }} · Train Frontier AI</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,15 +33,15 @@
                 {{ $slot }}
             </main>
 
-            <!-- Minimalist Outlier Footer -->
+            <!-- Minimalist Footer -->
             <footer class="border-t border-gray-200/60 bg-white/60 backdrop-blur-sm py-6 mt-auto">
                 <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between text-xs text-ink-500 gap-3">
                     <div class="flex items-center gap-2">
-                        <span class="font-bold text-ink-900 text-sm">Outlier<span class="text-outlier-500">.</span></span>
+                        <span class="font-bold text-ink-900 text-sm">Workforce<span class="text-outlier-500">.</span></span>
                         <span>· High-Quality Human Feedback for Frontier AI</span>
                     </div>
                     <div>
-                        © {{ date('Y') }} Outlier Platform. All rights reserved.
+                        © {{ date('Y') }} Workforce Platform. All rights reserved.
                     </div>
                 </div>
             </footer>

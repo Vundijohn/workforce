@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Outlier') }} · Expert Portal</title>
+        <title>{{ config('app.name', 'Workforce Platform') }} · Expert Portal</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +27,7 @@
         </div>
 
         <div class="mt-8 text-center text-xs text-ink-400">
-            © {{ date('Y') }} Outlier AI. Secure Expert Access.
+            © {{ date('Y') }} Workforce Platform. Secure Expert Access.
         </div>
     </body>
 </html>

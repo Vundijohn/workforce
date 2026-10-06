@@ -45,7 +45,7 @@
 
         <div class="pt-2">
             <x-primary-button class="w-full py-3.5 text-base">
-                {{ __('Sign In to Outlier') }}
+                {{ __('Sign In to Workforce Platform') }}
             </x-primary-button>
         </div>
 
