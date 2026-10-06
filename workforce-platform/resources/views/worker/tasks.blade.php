@@ -204,7 +204,7 @@
                                         Submission #{{ $e->task_submission_id }}
                                     </td>
                                     <td class="py-3.5 font-bold text-ink-900">
-                                        {{ $e->currency }} {{ number_format($e->amount_minor / 100, 2) }}
+                                        {{ $e->currency === 'USD' ? '$' : $e->currency.' ' }}{{ number_format($e->amount_minor / 100, 2) }}
                                     </td>
                                     <td class="py-3.5">
                                         <span class="inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-semibold bg-amber-50 text-amber-700 border border-amber-200/60 capitalize">

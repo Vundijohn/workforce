@@ -41,8 +41,8 @@ class WorkflowTest extends TestCase
     {
         $client = Client::create(['name' => 'Acme', 'slug' => 'acme']);
         $project = Project::create([
-            'client_id' => $client->id, 'title' => 'Rating', 'pay_rate_minor' => 25000,
-            'currency' => 'KES', 'status' => ProjectStatus::Active,
+            'client_id' => $client->id, 'title' => 'Rating', 'pay_rate_minor' => 2500,
+            'currency' => 'USD', 'status' => ProjectStatus::Active,
         ]);
         $task = Task::create(['project_id' => $project->id, 'status' => TaskStatus::Available, 'payload' => ['prompt' => 'Hi']]);
 
@@ -101,7 +101,7 @@ class WorkflowTest extends TestCase
 
         $this->assertSame(TaskStatus::Approved, $task->fresh()->status);
         $this->assertSame(1, Earning::count());
-        $this->assertSame(25000, Earning::first()->amount_minor);
+        $this->assertSame(2500, Earning::first()->amount_minor);
 
         // A second review attempt must fail and must not create another earning.
         $this->actingAs($reviewer)->post(route('reviewer.review.store', $submission), ['decision' => 'approved'])

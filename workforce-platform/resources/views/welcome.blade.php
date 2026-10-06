@@ -174,7 +174,7 @@
                         </div>
                         <div class="mt-4 flex items-center justify-between text-[11px] text-ink-400">
                             <span class="font-semibold text-emerald-600">Active Contributor</span>
-                            <span>KES 250 / task</span>
+                            <span>$25.00 / task</span>
                         </div>
                     </div>
 
@@ -308,7 +308,7 @@
                                 </div>
                                 <div class="bg-gray-50 rounded-xl p-3 border border-gray-200 text-xs flex justify-between items-center">
                                     <span class="font-medium text-ink-700">Payout per verified submission:</span>
-                                    <span class="font-extrabold text-ink-900 text-sm">KES 250.00</span>
+                                    <span class="font-extrabold text-ink-900 text-sm">$25.00</span>
                                 </div>
                             </div>
                         </div>
